@@ -72,3 +72,7 @@ This project uses vanilla JavaScript with modern ES6+ features. To contribute:
 ## License
 
 MIT License - Use, modify, and share freely!
+
+## PWA asset integrity
+
+The source previously linked five iOS startup PNGs that were never committed. Those broken references are no longer advertised. Existing SVG game icons and functional games remain unchanged. iOS will use its default launch screen unless properly sized splash images are later added. CI checks that referenced local assets exist.
